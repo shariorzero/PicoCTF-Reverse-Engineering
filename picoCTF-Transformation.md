@@ -1,4 +1,12 @@
 # transformation enc
+Description:
+I wonder what this really is... enc ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
+
+
+chech file type in linux terminal. It shows Unicode text, UTF-8 text, with no line terminators.
+This kind of file can be cracked using python. Just do same as below described.
+
+
 * copy text from enc file.
 * open python in terminal.
 * type 
