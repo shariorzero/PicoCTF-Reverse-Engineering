@@ -1,4 +1,5 @@
 # transformation enc
+link: https://play.picoctf.org/practice/challenge/104?category=3&page=1
 Description:
 I wonder what this really is... enc ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
 
