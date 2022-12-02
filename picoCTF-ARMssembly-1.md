@@ -5,6 +5,9 @@
   File: chall_1.S 
   Flag format: picoCTF{XXXXXXXX} -> 
   (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
+  
+
+link: https://play.picoctf.org/practice/challenge/160?category=3&page=1
 
 ### Solution:
 
