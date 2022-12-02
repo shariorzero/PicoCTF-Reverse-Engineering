@@ -9,14 +9,15 @@
 
 ### Solution:
 
-    There are mainly 3 technique I found. 
-    * Learn armv8 assembly and understand procedure of chall.s.
-    * Using simulator and run on linux platform.
-    * Same as 2 but no need of any simulator. Use IDA pro for understanding the code.   
-    
-    
-    Here I am using method 2 and 3.
-    * Need a cross compiler to run arm v8 on non-arm-v8. Then compile it.
+There are mainly 3 technique I found. 
+1. Learn armv8 assembly and understand procedure of chall.s.
+2. Using simulator and run on linux platform.
+3. Same as 2 but no need of any simulator. Use IDA pro for understanding the code.   
+
+
+Here I am using method 2 and 3.
+* Method 2 : Need a cross compiler to run arm v8 on non-arm-v8. Then compile it.
+* Method 3 : Method 2(1-4) and then open <b>chall</b> in <b>IDA Pro</b>.
     
 1. Install binutils-aarch64-linux-gnu
    ```sh
