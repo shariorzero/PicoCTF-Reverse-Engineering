@@ -53,7 +53,7 @@ Here I am using method 3.
     }
     return v3;
   }
-```
+  ```
 6. func2 always increases value of v3 by 3. like v3=v3+3.
 7. given parameter is 3634247936. It has 13 1's in binary.
 8. So answer is 13*3 = 39.
